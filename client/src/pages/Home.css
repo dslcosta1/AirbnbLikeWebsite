@@ -1,0 +1,45 @@
+/* client/src/pages/Home.css */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+  }
+  
+  .home-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .buttons > button {
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .guest-btn {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .host-btn {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .home-main {
+    padding: 2rem;
+    text-align: center;
+  }
